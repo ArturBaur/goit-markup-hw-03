@@ -53,6 +53,7 @@ body {
   margin-top: 24px;
   margin-bottom: 25px;
   padding: 0;
+  margin: 0;
 }
 
 .highlight {
@@ -61,8 +62,24 @@ body {
 
 .webstudio-link {
   text-decoration: none;
-  width: 145px;
-  height: 41px;
+}
+
+.webstudio-link-2 {
+  text-decoration: none;
+}
+
+a.webstudio-link {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+a.webstudio-link-2 {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .top-line {
@@ -279,12 +296,24 @@ body {
   weight: 1600px;
   height: 252px;
   margin: 0;
-  padding-top: 60px;
 }
 
 .footer-line-menu-list {
   list-style: none;
   padding-inline-start: 0;
+}
+
+.footer-line-menu-list-item {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.footer-line-menu-list-item:first-child {
+  padding-top: 0;
+}
+
+.footer-line-menu-list-item:last-child {
+  padding-bottom: 0;
 }
 
 .footer-bg-location {
@@ -317,6 +346,11 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+.filters li:last-child .filters-btn {
+  margin-right: 0;
 }
 
 .filters-btn {
@@ -325,17 +359,32 @@ body {
   cursor: pointer;
   border: 0;
   border-radius: 4px;
-  margin: 8px;
-}
-
-.filters-btn:last-child {
-  margin-right: 0;
+  margin-right: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 6px 22px 6px 22px;
 }
 
 .filters-btn:hover,
 .filters-btn:focus {
   color: #fff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.projects {
+  text-align: center;
+  align-items: center;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .projects-list-name {
