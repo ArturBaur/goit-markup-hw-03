@@ -53,15 +53,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-blue);
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  padding: 0;
-  margin: 0;
 }
 
 .highlight {
   color: var(--second-black);
+}
+
+.webstudio {
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .webstudio-link {
@@ -302,12 +303,7 @@ a.webstudio-link-2 {
 }
 
 .footer-line-menu-list-item {
-  padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.footer-line-menu-list-item:first-child {
-  padding-top: 0;
 }
 
 .footer-line-menu-list-item:last-child {
@@ -391,22 +387,18 @@ a.webstudio-link-2 {
   list-style-type: none;
 }
 
-.projects-card {
-  width: 370px;
-  height: 404px;
-  background: var(--main-white);
-  border: 1px solid var(--line-color-2);
-}
-
 .projects-card-img {
   display: block;
 }
 .projects-list-info {
   text-align: left;
-  margin-left: 24px;
-  margin-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px 20px 24px;
+  width: 370px;
+  height: 110px;
+  background: var(--main-white);
+  border-width: 0 1px 1px;
+  border-style: solid;
+  border-color: var(--line-color-2);
 }
 
 .projects-list-name {
