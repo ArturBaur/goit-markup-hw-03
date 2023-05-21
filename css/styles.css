@@ -87,16 +87,20 @@ a.webstudio-link-2 {
   padding-bottom: 20px;
 }
 
-.top-line {
+.top-line-partition {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line-color);
+}
+
+.top-line-left-side {
+  display: flex;
   list-style-type: none;
   padding-top: 25px;
   padding-bottom: 25px;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid var(--line-color);
 }
 
 .top-line-menu-list {
@@ -104,9 +108,13 @@ a.webstudio-link-2 {
   justify-content: space-between;
   list-style: none;
   gap: 46px;
-  margin-right: 371px;
   margin-left: 0;
   padding: 0;
+}
+
+.top-line-right-side {
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-line-menu-list-link {
@@ -129,7 +137,7 @@ a.webstudio-link-2 {
   justify-content: flex-start;
   justify-content: space-between;
   align-items: center;
-  gap: 46px;
+  gap: 50px;
 }
 
 .top-line-menu-link {
